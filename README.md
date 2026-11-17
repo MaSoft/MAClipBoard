@@ -6,7 +6,7 @@ Sustituto avanzado del historial del portapapeles de Windows (Win+V): doble clic
 
 [![Descargar](https://img.shields.io/github/v/release/MaSoft/MAClipBoard?label=Descargar&style=for-the-badge)](https://github.com/MaSoft/MAClipBoard/releases/latest)
 
-También puedes descargarlo desde [masoft.es](https://masoft.es/descargas.html).
+Más información y el manual también en [masoft.es](https://masoft.es/descargas.html#maclipboard).
 
 ![Portapapeles](capturas/01-portapapeles.webp)
 
