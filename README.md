@@ -33,7 +33,7 @@ Más información y el manual también en [masoft.es](https://masoft.es/descarga
 |---|---|
 | Sistema | Windows 10 o Windows 11 de 64 bits |
 | Permisos | Usuario normal: no necesita administrador |
-| Instalación | No hace falta: un solo .exe que se copia y se abre. Tarda unos segundos más en arrancar porque se descomprime en la carpeta temporal |
+| Instalación | Instalador para tu usuario, sin permisos de administrador, o ejecutable único que se copia y se abre; el único tarda unos segundos más en arrancar porque se descomprime en la carpeta temporal. |
 | Espacio | 37 MB el programa, más lo que ocupen las imágenes copiadas |
 | Internet | No la necesita: todo se queda en el equipo |
 
@@ -41,13 +41,14 @@ Crea su carpeta data junto al .exe, donde guarda el historial y los ajustes. Fun
 
 ## Descarga y comprobación
 
-En [Releases](https://github.com/MaSoft/MAClipBoard/releases/latest) están el programa (`MAClipBoard_v2.2.0.exe`), su huella SHA-256 y el manual. Para comprobar que la descarga está completa, en PowerShell:
+En [Releases](https://github.com/MaSoft/MAClipBoard/releases/latest) están el instalador (`MAClipBoard_Setup_v2.2.0.exe`), el ejecutable único (`MAClipBoard_v2.2.0.exe`), sus huellas SHA-256 y el manual. Para comprobar que la descarga está completa, en PowerShell:
 
 ```powershell
+Get-FileHash .\MAClipBoard_Setup_v2.2.0.exe
 Get-FileHash .\MAClipBoard_v2.2.0.exe
 ```
 
-Debe coincidir con `533a1850e161ac88f80251f90945034c30e587f339c40313fe2b393362faa484`.
+Deben coincidir con `46786a7ad5e259cca7ad1fe754d70c68fd06334a6579771a03a368c6ba28f11a` (instalador) y `533a1850e161ac88f80251f90945034c30e587f339c40313fe2b393362faa484` (ejecutable único).
 
 ## Manual
 
